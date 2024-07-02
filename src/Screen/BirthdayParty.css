@@ -1,0 +1,72 @@
+/* BirthdayParty.css */
+
+.birthday-party {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8e6ff; /* Light purple background */
+    overflow: hidden;
+  }
+  
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .balloons {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .balloon {
+    width: 50px;
+    height: 70px;
+    background-color: #ffcc00; /* Yellow balloon */
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .confetti {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .confetti-piece {
+    width: 10px;
+    height: 10px;
+    background-color: #ff8080; /* Pink confetti */
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .cake {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .candle {
+    width: 5px;
+    height: 50px;
+    background-color: #ffd700; /* Gold candle */
+    margin: 0 5px;
+  }
+  
+  .cake-base {
+    width: 80px;
+    height: 40px;
+    background-color: #ff4d4d; /* Red cake base */
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
